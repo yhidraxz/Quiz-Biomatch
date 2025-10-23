@@ -1,0 +1,69 @@
+import React from "react";
+
+export default function Hero() {
+  return (
+    <section className="flex-col h-screen">
+      <div className="flex-col text-center bg-red-600 flex mx-auto items-center align-center pb-2 py-1 font-bold">
+        <h1 className="text-white "> Alerta pra mulheres acima de 35 anos:</h1>
+        <h1 className="font-medium text-white text-sm">
+          Crianças p/ cuidar, sem tempo pra academia e com medo da cintura fina
+          ser coisa do passado
+        </h1>
+      </div>
+      <div className="max-w-5xl text-center items-center">
+        <div className="">
+          <div className="headline">
+            <h2 className=" px-1 text-lg font-bold leading-tight text-white mt-12">
+              Elas ouviam comentários da família: mas viraram fofoca em 4
+              semanas após ativar o modo queima
+            </h2>
+
+            <p className="text-yellow-300 text-sm mb-6 mt-2">
+              (Sem remédios, sem academia, sem dietas restritivas, só com 20
+              minutos por dia em casa)
+            </p>
+          </div>
+          <div className="flex justify-center w-full aspect-video mt-10">
+            <iframe
+              className="w-full container-mobile"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+
+          <div className="flex justify-center mt-8 sm:flex-row sm:items-center gap-3">
+            <a
+              href="#cta"
+              className="justify-center align-center btn text-white bg-green-500 btn-lg w-2/3 animate-bounce"
+            >
+              Adquira o método
+            </a>
+          </div>
+
+          <div className="mt-24 flex justify-center">
+            <div className="flex flex-col items-center text-white ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+              <p className="text-xs text-white/80 mt-1">Role para ver mais</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
