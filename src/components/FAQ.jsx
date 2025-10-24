@@ -60,7 +60,7 @@ export default function FAQ() {
           <h3 className="text-2xl font-bold">Perguntas frequentes</h3>
         </div>
 
-        <div className="grid gap-4 grid-cols-1 ml:grid-cols-2">
+        <div className="grid gap-4 grid-cols-1">
           <div>
             {faqs.map((f, i) => (
               <Question key={i} {...f} />

@@ -33,7 +33,7 @@ export default function Pricing() {
           </p>
         </div>
 
-        <div className="grid gap-4 grid-cols-1 ml:grid-cols-3">
+        <div className="grid gap-4 grid-cols-1">
           <PriceCard
             title="SOMENTE HOJE:"
             origPrice="R$ 300,00"

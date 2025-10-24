@@ -12,7 +12,7 @@ export default function CTA() {
           provavelmente nunca mais vai ter uma oportunidade de tomar uma decisão
           dessa.
         </p>
-        <div className="flex justify-center mt-8 sm:flex-row sm:items-center gap-3">
+        <div className="flex justify-center mt-8 sm:flex-row ">
           <a
             href="#cta"
             className="animate-bounce justify-center align-center btn text-white bg-green-500 btn-xl"
@@ -21,7 +21,7 @@ export default function CTA() {
           </a>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+        <div className="mt-8 grid grid-cols-1 gap-4 text-center">
           <div>
             <div className="text-lg font-bold text-yellow-300">30 dias</div>
             <div className="text-sm text-gray-500">Garantia</div>

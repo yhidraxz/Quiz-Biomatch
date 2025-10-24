@@ -77,7 +77,7 @@ export default function Testimonials() {
           </p>
         </div>
 
-        <div className="grid gap-4 grid-cols-1 ml:grid-cols-3">
+        <div className="grid gap-4 grid-cols-1 ">
           {items.map((it, idx) => (
             <TestimonialCard key={idx} {...it} />
           ))}
