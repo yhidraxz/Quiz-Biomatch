@@ -27,7 +27,7 @@ export default function Pricing() {
       <div className="container-mobile mx-auto max-w-5xl">
         <div className="text-center mb-6">
           <h3 className="text-2xl font-bold text-white">Taxa simbólica</h3>
-          <p className="text-gray-500">
+          <p className="text-gray-700">
             Você não precisa mais investir +R$1.200,00 todos os meses pra
             emagrecer
           </p>

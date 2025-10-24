@@ -5,7 +5,7 @@ const FeatureCard = ({ title, desc }) => (
     <div className="flex items-start gap-4">
       <div>
         <h3 className="font-medium">{title}</h3>
-        <p className="text-sm text-gray-500 mt-1">{desc}</p>
+        <p className="text-sm text-gray-600 mt-1">{desc}</p>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@ export default function Features() {
             <h4 className="text-xl text-white font-bold">
               Ative o modo queima - Transforme seu corpo naturalmente
             </h4>
-            <p className="mt-2 text-gray-500">
+            <p className="mt-2 text-gray-600">
               Centenas de mulheres estão emagrecendo sem sofrimento ou dietas
               restritivas
             </p>
