@@ -28,7 +28,7 @@ export default function Features() {
 
           <div className="grid gap-4 grid-cols-1 ml:grid-cols-3">
             <FeatureCard
-              title="Aprenda a ativar o modo queima, e emagreça gordura até enquanto descansa"
+              title="Aprenda a ativar o modo queima, e emagreça até enquanto descansa"
               desc=""
             />
             <FeatureCard
