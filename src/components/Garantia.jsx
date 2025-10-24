@@ -9,7 +9,7 @@ export default function Garantia() {
             Não diga sim, diga talvez..
           </h3>
           <img className="mb-4 " src="../../garantia.png"></img>
-          <h4 className="text-xl text-gray-300 font-medium text-center">
+          <h4 className="text-xl text-gray-600 font-medium text-center">
             Se você aplicar o método e não se sentir satisfeita, damos todo seu
             dinheiro de volta
           </h4>
