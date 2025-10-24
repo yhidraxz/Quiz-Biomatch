@@ -26,7 +26,7 @@ export default function Features() {
             </p>
           </div>
 
-          <div className="grid gap-4 grid-cols-1 ml:grid-cols-3">
+          <div className="grid gap-4 grid-cols-1">
             <FeatureCard
               title="Aprenda a ativar o modo queima, e emagreça até enquanto descansa"
               desc=""
@@ -48,7 +48,7 @@ export default function Features() {
             <h4 className="text-xl text-white font-bold">Volte a ser jovem</h4>
           </div>
 
-          <div className="grid gap-4 grid-cols-1 ml:grid-cols-3">
+          <div className="grid gap-4 grid-cols-1">
             <FeatureCard
               title="Elimine gordura localizada na barriga, cintura e braços com técnicas simples "
               desc=""
@@ -72,7 +72,7 @@ export default function Features() {
             </h4>
           </div>
 
-          <div className="grid gap-4 grid-cols-1 ml:grid-cols-3">
+          <div className="grid gap-4 grid-cols-1">
             <FeatureCard
               title="Faça tudo em casa — Pra quem não tem tempo pra academia e treinos longos"
               desc=""
