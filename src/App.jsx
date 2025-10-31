@@ -1,29 +1,21 @@
-import React from "react";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import Garantia from "./components/Garantia";
-import Testimonials from "./components/Testimonials";
-import Pricing from "./components/Pricing";
-import FAQ from "./components/FAQ";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+// src/App.jsx
+import React, { useState } from "react";
+import QuizPage from "./pages/QuizPage";
+import LoadingPage from "./pages/LoadingPage";
+import ConfirmationPage from "./pages/ConfirmationPage";
 
 export default function App() {
-  return (
-    <div className="min-h-screen flex flex-col bg-black">
-      <main className="flex-grow">
-        <Hero />
-        <div className="bg-black">
-          <Features />
-          <Pricing />
-          <Garantia />
-          <Testimonials />
+  const [step, setStep] = useState("quiz");
 
-          <FAQ />
-          <CTA />
-        </div>
-      </main>
-      <Footer />
-    </div>
+  const handleFinish = () => setStep("loading");
+
+  const handleLoadingComplete = () => setStep("confirmation");
+
+  return (
+    <>
+      {step === "quiz" && <QuizPage onFinish={handleFinish} />}
+      {step === "loading" && <LoadingPage onComplete={handleLoadingComplete} />}
+      {step === "confirmation" && <ConfirmationPage />}
+    </>
   );
 }

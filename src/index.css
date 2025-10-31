@@ -1,31 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Custom global styles */
-:root {
-  --brand: theme(colors.brand[500]);
-}
-
-/* Small tweaks */
-body {
-  @apply bg-base-100 text-neutral;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* exemplo de utilitário para container mobile-first */
-.container-mobile {
-  @apply px-6;
-}
-@media (min-width: 400px) {
-  .container-mobile {
-    @apply px-10;
-  }
-}
-
-/* custom card */
-.card-soft {
-  box-shadow: 0 8px 30px rgba(16, 24, 40, 0.06);
-  border-radius: 12px;
-}
