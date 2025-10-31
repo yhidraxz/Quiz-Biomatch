@@ -5,8 +5,7 @@ import { playClickSound } from "../components/SoundEffect";
 export default function ConfirmationPage() {
   const handleRedirect = () => {
     playClickSound();
-    window.location.href =
-      "https://cristianefaria.com/produtos/paginas-lucrativas-low";
+    window.location.href = "https://bio-match-five.vercel.app";
   };
 
   return (
