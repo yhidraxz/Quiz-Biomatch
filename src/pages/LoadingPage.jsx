@@ -11,9 +11,9 @@ export default function LoadingPage({ onComplete }) {
     <div className="flex flex-col justify-center items-center min-h-screen bg-white text-center">
       <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-green-500 mb-6"></div>
       <h2 className="text-lg font-semibold text-gray-700">
-        Analisando suas respostas...
+        Carregando suas respostas...
       </h2>
-      <p className="text-gray-500 mt-2">Isso pode levar alguns segundos</p>
+      <p className="text-gray-500 mt-2">Aguarde alguns segundos</p>
     </div>
   );
 }
