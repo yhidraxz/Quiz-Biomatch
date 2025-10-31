@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import QuizPage from "./pages/QuizPage";
 import LoadingPage from "./pages/LoadingPage";
-import ConfirmationPage from "./pages/ConfirmationPage";
+import ConfirmationPage from "./pages/confirmationPage";
 
 export default function App() {
   const [step, setStep] = useState("quiz");
